@@ -140,17 +140,17 @@ body{
     font-weight: bold;
     background-color: white;
 }
-#btn a{
+/* #btn a{
     text-decoration: none;
     color: rgb(15, 14, 14);
-}
+} */
 #btn:hover{
     opacity: 20;
     text-decoration: none;
     border: 1px solid rgb(243, 189, 39);
     width: 80%;
 }
-#sign{
+/* #sign{
     bottom: 1%;
     position: absolute;
     left: 20%;
@@ -168,4 +168,4 @@ body{
 }
 #sign a:hover{
     color: rgb(250, 248, 248);
-}
+} */
