@@ -1,0 +1,171 @@
+body{
+    font-family: calibri;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("./fonts/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf")
+       format("truetype");
+  font-style: italic;
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+}
+@font-face {
+    font-family: "DM Mono";
+    src: url("./fonts/DMMono-Regular.ttf")
+    format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(img/ChatGPT\ Image\ Jul\ 31\,\ 2026\,\ 02_48_13\ AM.png);
+    background-size: cover;
+}
+#center{
+    height: 65%;
+    width: 25%;
+    background: rgba(8, 0, 0, 0.226);
+    position: absolute;
+    top: 17%;
+    left: 36%;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 2px solid rgb(173, 164, 164);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+#loginbox{
+    height: 13%;
+    width: 38%;
+    background-color: rgb(173, 164, 164);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    transform: translateX(-50%);
+    font-size: 32px;
+    font-weight: bold;
+}
+#user{
+    width: 250px;
+    padding: 12px;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    top: 21%;
+    background-color:rgba(8, 0, 0, 0.226); 
+    border: 1px solid rgb(173, 164, 164);
+    color: rgb(173, 164, 164);
+}
+#email{
+    width: 250px;
+    padding: 12px;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    top: 35%;
+    background-color:rgba(8, 0, 0, 0.226); 
+    border: 1px solid rgb(173, 164, 164);
+    color: rgb(173, 164, 164);
+}
+#pass{
+    width: 250px;
+    padding: 12px;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    top: 48.5%;
+    background-color:rgba(8, 0, 0, 0.226); 
+    border: 1px solid rgb(173, 164, 164);
+    color: rgb(173, 164, 164);
+}
+#conpass{
+    width: 250px;
+    padding: 12px;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    top: 67%;
+    background-color:rgba(8, 0, 0, 0.226); 
+    border: 1px solid rgb(173, 164, 164);
+    color: rgb(173, 164, 164);
+}
+::placeholder{
+    color: rgb(173, 164, 164);
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+}
+#me{
+    top: 59%;
+    position: absolute;
+    left: 10%;
+    font-size: 14px;
+    color: rgb(173, 164, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 69px;
+}
+#me a{
+    text-decoration: none;
+    color: rgb(173, 164, 164);
+}
+#me2:hover{
+    color: white;
+}
+#btn{
+    width: 80%;
+    padding: 12px;
+    top: 83%;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+}
+#btn a{
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+}
+#btn:hover{
+    opacity: 20;
+    text-decoration: none;
+    border: 1px solid rgb(243, 189, 39);
+    width: 80%;
+}
+#sign{
+    bottom: 1%;
+    position: absolute;
+    left: 20%;
+    color: rgb(173, 164, 164);
+}
+#have{
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+}
+#sign a{
+    text-decoration: none;
+    color: rgb(173, 164, 164);
+}
+#sign a:hover{
+    color: rgb(250, 248, 248);
+}
